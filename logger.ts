@@ -6,7 +6,7 @@ await log.setup({
     console: new log.handlers.ConsoleHandler("DEBUG"),
 
     file: new log.handlers.FileHandler("WARNING", {
-      filename: "./log.txt",
+      filename: "./log/access.txt",
       // you can change format of output message
       formatter: "{levelName} {msg}",
     }),
